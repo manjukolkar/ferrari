@@ -29,10 +29,5 @@ pipeline {
                 sh 'ps -eaf'
             }
         }
-        stage('CPU Utilization') {
-            steps {
-                sh 'lscpu'
-            }
-        }
     }
 }
